@@ -1,3 +1,5 @@
+/* styles.css */
+
 /* Global Styles */
 
 * {
@@ -7,56 +9,92 @@
 }
 
 body {
-  font-family: Open Sans, sans-serif;
+  font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #333;
   background-color: #f9f9f9;
 }
 
-/* Header Styles */
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
 
-header {
-  background-color: #212121;
+a:hover {
+  color: #23527c;
+}
+
+/* Introduction Section Styles */
+
+#introduction {
+  background-color: #333;
   color: #fff;
-  padding: 1rem;
+  padding: 2em;
   text-align: center;
 }
 
-/* Navigation Styles */
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+#introduction h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+/* About Section Styles */
+
+#about {
+  padding: 2em;
 }
 
-nav li {
-  margin-right: 20px;
+#about h2 {
+  margin-top: 0;
 }
 
-nav a {
-  color: #fff;
-  text-decoration: none;
+/* Team Section Styles */
+
+#team {
+  padding: 2em;
 }
 
-/* Hero Section Styles */
-
-.hero {
-  background-image: linear-gradient(to bottom, #212121, #333);
-  background-size: 100% 300px;
-  background-position: 0% 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
+#team h2 {
+  margin-top: 0;
 }
 
-/* ...and so on... */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.team-member {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Tokenomics and Distribution Section Styles */
+
+#tokenomics {
+  padding: 2em;
+}
+
+#tokenomics h2 {
+  margin-top: 0;
+}
+
+/* FAQ Section Styles */
+
+#faq {
+  padding: 2em;
+}
+
+#faq h2 {
+  margin-top: 0;
+}
