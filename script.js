@@ -26,3 +26,32 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
   });
 });
+// script.js
+
+// Smooth scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', e => {
+    e.preventDefault();
+    document.querySelector(anchor.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+
+// FAQ accordion
+document.querySelectorAll('.faq-question').forEach(question => {
+  question.addEventListener('click', () => {
+    question.classList.toggle('active');
+    question.nextElementSibling.classList.toggle('show');
+  });
+});
+
+// Team member hover effects
+document.querySelectorAll('.team-member img').forEach(image => {
+  image.addEventListener('mouseover', () => {
+    image.style.transform = 'scale(1.1)';
+  });
+  image.addEventListener('mouseout', () => {
+    image.style.transform = 'scale(1)';
+  });
+});
