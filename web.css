@@ -98,3 +98,60 @@ a:hover {
 #faq h2 {
   margin-top: 0;
 }
+/* styles.css */
+
+/* Color scheme */
+:root {
+  --primary-color: #2196F3; /* blue */
+  --secondary-color: #FFC107; /* orange */
+  --background-color: #FFFFFF; /* white */
+}
+
+/* Typography */
+body {
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+/* Layout */
+section {
+  padding: 40px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+/* Visual elements */
+.team-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.faq-question {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.faq-question h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
