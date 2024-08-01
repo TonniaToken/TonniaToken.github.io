@@ -1,4 +1,5 @@
 // script.js
+
 // Add event listener to team members
 document.querySelectorAll('.team-member').forEach(member => {
   member.addEventListener('click', () => {
@@ -18,7 +19,8 @@ document.querySelectorAll('.faq-question').forEach(question => {
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', e => {
     e.preventDefault();
-    document.querySelector(anchor.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+    let target = document.querySelector(anchor.getAttribute('href'));
+    target.scrollIntoView({ behavior: 'smooth' });
   });
 });
 
@@ -29,12 +31,5 @@ document.querySelectorAll('.team-member img').forEach(image => {
   });
   image.addEventListener('mouseout', () => {
     image.style.transform = 'scale(1)';
-  });
-});
-// Add event listener to FAQ questions
-document.querySelectorAll('.faq-question').forEach(question => {
-  question.addEventListener('click', () => {
-    const answer = question.nextElementSibling;
-    answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
   });
 });
