@@ -31,3 +31,10 @@ document.querySelectorAll('.team-member img').forEach(image => {
     image.style.transform = 'scale(1)';
   });
 });
+// Add event listener to FAQ questions
+document.querySelectorAll('.faq-question').forEach(question => {
+  question.addEventListener('click', () => {
+    const answer = question.nextElementSibling;
+    answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+  });
+});
