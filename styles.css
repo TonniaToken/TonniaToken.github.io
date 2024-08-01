@@ -188,3 +188,29 @@ section {
   color: #666;
   margin-bottom: 10px;
 }
+{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#faq {
+	background-color: #f9f9f9;
+	padding: 20px;
+}
+
+.faq-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.faq-question {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.faq-answer {
+	padding-left: 20px;
+	display: none;
+}
