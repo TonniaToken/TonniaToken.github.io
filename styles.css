@@ -251,3 +251,20 @@ section {
 .fa {
   margin-right: 5px;
 }
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact li {
+  margin-bottom: 10px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #337ab7; /* Link color */
+}
+
+#contact a:hover {
+  color: #23527c; /* Link hover color */
+}
