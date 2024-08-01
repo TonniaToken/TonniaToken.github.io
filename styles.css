@@ -1,7 +1,4 @@
-/* styles.css */
-
 /* Global Styles */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,7 +22,6 @@ a:hover {
 }
 
 /* Introduction Section Styles */
-
 #introduction {
   background-color: #333;
   color: #fff;
@@ -39,124 +35,6 @@ a:hover {
 }
 
 /* About Section Styles */
-
-#about {
-  padding: 2em;
-}
-
-#about h2 {
-  margin-top: 0;
-}
-
-/* Team Section Styles */
-
-#team {
-  padding: 2em;
-}
-
-#team h2 {
-  margin-top: 0;
-}
-
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-}
-
-.team-member {
-  background-color: #fff;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.team-member img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-/* Tokenomics and Distribution Section Styles */
-
-#tokenomics {
-  padding: 2em;
-}
-
-#tokenomics h2 {
-  margin-top: 0;
-}
-
-/* FAQ Section Styles */
-
-#faq {
-  padding: 2em;
-}
-
-#faq h2 {
-  margin-top: 0;
-}
-/* styles.css */
-
-/* Color scheme */
-:root {
-  --primary-color: #2196F3; /* blue */
-  --secondary-color: #FFC107; /* orange */
-  --background-color: #FFFFFF; /* white */
-}
-
-/* Typography */
-body {
-  font-family: Open Sans, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-}
-
-h1, h2, h3 {
-  font-weight: bold;
-  color: var(--primary-color);
-}
-
-/* Layout */
-section {
-  padding: 40px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-}
-
-/* Visual elements */
-.team-member img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.team-member h3 {
-  font-size: 18px;
-  margin-bottom: 5px;
-}
-
-.faq-question {
-  margin-bottom: 20px;
-  padding: 20px;
-  border-bottom: 1px solid #ddd;
-}
-
-.faq-question h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-/* styles.css */
-
 #about {
   padding: 40px;
 }
@@ -188,32 +66,68 @@ section {
   color: #666;
   margin-bottom: 10px;
 }
-{
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
+
+/* Team Section Styles */
+#team {
+  padding: 2em;
 }
 
+#team h2 {
+  margin-top: 0;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.team-member {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Tokenomics and Distribution Section Styles */
+#tokenomics {
+  padding: 2em;
+}
+
+#tokenomics h2 {
+  margin-top: 0;
+}
+
+/* FAQ Section Styles */
 #faq {
-	background-color: #f9f9f9;
-	padding: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
 }
 
 .faq-container {
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .faq-question {
-	font-weight: bold;
-	cursor: pointer;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .faq-answer {
-	padding-left: 20px;
-	display: none;
+  padding-left: 20px;
+  display: none;
 }
+
 .faq-container {
   max-width: 800px;
   margin: 40px auto;
@@ -233,6 +147,7 @@ section {
   margin-bottom: 20px;
 }
 
+/* Social Links */
 .social-links {
   margin-top: 20px;
   text-align: center;
@@ -251,6 +166,8 @@ section {
 .fa {
   margin-right: 5px;
 }
+
+/* Contact */
 #contact ul {
   list-style: none;
   padding: 0;
@@ -262,27 +179,32 @@ section {
 
 #contact a {
   text-decoration: none;
-  color: #337ab7; /* Link color */
+  color: #337ab7;
 }
 
 #contact a:hover {
-  color: #23527c; /* Link hover color */
+  color: #23527c;
 }
+
+/* Footer */
 footer {
-  background-color: #87CEEB; /* Sky blue background */
-  color: #ffffff; /* White text color */
-  text-align: center; /* Center the text */
-  padding: 20px; /* Add some padding */
-  clear: both; /* Ensure the footer is below all content */
+  background-color: #87CEEB;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  clear: both;
 }
 
 footer p {
-  margin-bottom: 0; /* Remove margin from paragraph */
+  margin-bottom: 0;
 }
+
 footer p:last-child {
-  font-size: 0.8em; /* Make the copyright text smaller */
-  margin-top: 10px; /* Add some space between the texts */
+  font-size: 0.8em;
+  margin-top: 10px;
 }
+
+/* Header and Logo */
 header {
   width: 250px;
   height: 250px;
