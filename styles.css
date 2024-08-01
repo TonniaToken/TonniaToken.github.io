@@ -268,3 +268,14 @@ section {
 #contact a:hover {
   color: #23527c; /* Link hover color */
 }
+footer {
+  background-color: #87CEEB; /* Sky blue background */
+  color: #ffffff; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 20px; /* Add some padding */
+  clear: both; /* Ensure the footer is below all content */
+}
+
+footer p {
+  margin-bottom: 0; /* Remove margin from paragraph */
+}
