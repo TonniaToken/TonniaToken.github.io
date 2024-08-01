@@ -58,8 +58,8 @@ document.querySelectorAll('.team-member img').forEach(image => {
 // document.addEventListener("DOMContentLoaded", function () {
 	const faqQuestions = document.querySelectorAll(".faq-question");console.log (faqQuestions);
 	faqQuestions.forEach((question) => {
-		question.addEventListener("click", () => {console.log("question clicked!");const answer question.nextElementSibling;console.log(answer);
-			const answer = question.nextElementSibling;
+		question.addEventListener("click", () => {console.log("question clicked!");const answer question.querySelectorAll;console.log(answer);
+			const answer = question.querySelectorAll;('.faq-answer')
 			answer.style.display = answer.style.display === "none" ? "block" : "none";
 		});
 	});
