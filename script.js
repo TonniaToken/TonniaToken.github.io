@@ -55,3 +55,12 @@ document.querySelectorAll('.team-member img').forEach(image => {
     image.style.transform = 'scale(1)';
   });
 });
+// document.addEventListener("DOMContentLoaded", function () {
+	const faqQuestions = document.querySelectorAll(".faq-question");
+	faqQuestions.forEach((question) => {
+		question.addEventListener("click", () => {
+			const answer = question.nextElementSibling;
+			answer.style.display = answer.style.display === "none" ? "block" : "none";
+		});
+	});
+});
