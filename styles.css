@@ -279,3 +279,7 @@ footer {
 footer p {
   margin-bottom: 0; /* Remove margin from paragraph */
 }
+footer p:last-child {
+  font-size: 0.8em; /* Make the copyright text smaller */
+  margin-top: 10px; /* Add some space between the texts */
+}
