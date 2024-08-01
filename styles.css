@@ -284,7 +284,7 @@ footer p:last-child {
   margin-top: 10px; /* Add some space between the texts */
 }
 header {
-  width: 100%;
+  width: 250px;
   height: 250px;
   display: flex;
   justify-content: center;
