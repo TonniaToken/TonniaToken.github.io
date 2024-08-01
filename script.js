@@ -56,9 +56,9 @@ document.querySelectorAll('.team-member img').forEach(image => {
   });
 });
 // document.addEventListener("DOMContentLoaded", function () {
-	const faqQuestions = document.querySelectorAll(".faq-question");
+	const faqQuestions = document.querySelectorAll(".faq-question");console.log (faqQuestions);
 	faqQuestions.forEach((question) => {
-		question.addEventListener("click", () => {
+		question.addEventListener("click", () => {console.log("question clicked!");const answer question.nextElementSibling;console.log(answer);
 			const answer = question.nextElementSibling;
 			answer.style.display = answer.style.display === "none" ? "block" : "none";
 		});
