@@ -284,7 +284,8 @@ footer p:last-child {
   margin-top: 10px; /* Add some space between the texts */
 }
 #logo {
-  width: 20px; /* Set logo width */
-  height: 20px; /* Set logo height */
-  margin: 10px; /* Add some margin */
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  display: block;
 }
