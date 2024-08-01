@@ -214,3 +214,40 @@ section {
 	padding-left: 20px;
 	display: none;
 }
+.faq-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.faq-answer {
+  margin-bottom: 20px;
+}
+
+.social-links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #23527c;
+}
+
+.fa {
+  margin-right: 5px;
+}
